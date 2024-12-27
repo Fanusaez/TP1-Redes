@@ -5,6 +5,7 @@ Este proyecto es el Trabajo Práctico N°1 de la materia **Introducción a los S
 ## Tabla de Contenidos
 
 - [Descripción](#descripción)
+- [Integrantes](#integrantes)
 - [Características](#características)
 - [Requisitos](#requisitos)
 - [Ejecucion Cliente](#ejecucion-cliente)
