@@ -1,4 +1,23 @@
-# Trabajo Practico 1 - Redes
+# File Transfer Application
+
+Este proyecto es el Trabajo Práctico N°1 de la materia **Introducción a los Sistemas Distribuidos (75.43)** en la Facultad de Ingeniería, Universidad de Buenos Aires. Su objetivo principal es la implementación de una aplicación cliente-servidor para la transferencia de archivos utilizando conceptos avanzados de comunicación en red.
+
+## Tabla de Contenidos
+
+- [Descripción](#descripción)
+- [Características](#características)
+- [Requisitos](#requisitos)
+- [Ejecucion Cliente](#ejecucion-cliente)
+- [Ejecucion Servidor](#ejecucion-servidor)
+
+## Descripción
+
+El propósito de esta aplicación es implementar un protocolo de **Transferencia Confiable de Datos (RDT)** utilizando **UDP** como protocolo de transporte. Se desarrollaron dos versiones del protocolo:
+
+1. **Stop & Wait**
+2. **TCP con SACK (Selective ACKnowledgments)**
+
+Además, la aplicación permite forzar condiciones de error para validar la confiabilidad en la transferencia.
 
 ## Integrantes
 - GALIÁN, Tomás Ezequiel - 104354
@@ -6,6 +25,29 @@
 - PUJATO, Iñaki - 109131 
 - LARDIEZ, Mateo - 107992 
 - ZACARIAS, Victor - 107080 
+
+
+## Características
+
+- **Transferencia de archivos binarios** de hasta 5 MB.
+- **Operaciones soportadas**:
+  - `UPLOAD`: Envío de archivos del cliente al servidor.
+  - `DOWNLOAD`: Descarga de archivos del servidor al cliente.
+- Garantiza la entrega de paquetes con una pérdida de hasta **10%** en los enlaces.
+- Manejo concurrente de múltiples clientes.
+- Desarrollo en **Python** siguiendo las especificaciones de PEP8.
+
+## Requisitos
+
+1. **Python 3.x** instalado.
+2. Librería estándar de sockets de Python.
+3. Herramienta **Mininet** para simular condiciones de red.
+
+### Instalación de Dependencias
+
+```bash
+pip install flake8
+```
 
 ## Ejecucion Cliente
 
@@ -79,7 +121,6 @@ Opciones:
 | `-p`, `--port`      | Puerto del servidor.                          |
 | `-s`, `--storage`   | Directorio donde se almacenarán los archivos. |
 | `-a`, `--algorithm` | Algoritmo elegido (sw or sack).               |
-
 
 #### Ejemplo de uso
 ```bash
