@@ -2,10 +2,19 @@
 
 Este proyecto es el Trabajo Práctico N°1 de la materia **Introducción a los Sistemas Distribuidos (75.43)** en la Facultad de Ingeniería, Universidad de Buenos Aires. Su objetivo principal es la implementación de una aplicación cliente-servidor para la transferencia de archivos utilizando conceptos avanzados de comunicación en red.
 
+## Integrantes
+
+| Nombre                      | Legajo  |
+|-----------------------------|---------|
+| GALIÁN, Tomás Ezequiel      | 104354  |
+| SAEZ, Edgardo Francisco     | 104896  |
+| PUJATO, Iñaki               | 109131  |
+| LARDIEZ, Mateo              | 107992  |
+| ZACARIAS, Victor            | 107080  |
+
 ## Tabla de Contenidos
 
 - [Descripción](#descripción)
-- [Integrantes](#integrantes)
 - [Características](#características)
 - [Requisitos](#requisitos)
 - [Ejecucion Cliente](#ejecucion-cliente)
@@ -19,14 +28,6 @@ El propósito de esta aplicación es implementar un protocolo de **Transferencia
 2. **TCP con SACK (Selective ACKnowledgments)**
 
 Además, la aplicación permite forzar condiciones de error para validar la confiabilidad en la transferencia.
-
-## Integrantes
-- GALIÁN, Tomás Ezequiel - 104354
-- SAEZ, Edgardo Francisco - 104896      
-- PUJATO, Iñaki - 109131 
-- LARDIEZ, Mateo - 107992 
-- ZACARIAS, Victor - 107080 
-
 
 ## Características
 
