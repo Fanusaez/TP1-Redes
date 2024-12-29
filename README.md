@@ -20,6 +20,8 @@ Este proyecto es el Trabajo Práctico N°1 de la materia **Introducción a los S
 - [Ejecucion Cliente](#ejecucion-cliente)
 - [Ejecucion Servidor](#ejecucion-servidor)
 
+---
+
 ## Descripción
 
 El propósito de esta aplicación es implementar un protocolo de **Transferencia Confiable de Datos (RDT)** utilizando **UDP** como protocolo de transporte. Se desarrollaron dos versiones del protocolo:
